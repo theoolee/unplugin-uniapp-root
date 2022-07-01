@@ -1,16 +1,26 @@
 {
   "name": "unplugin-uniapp-root",
   "version": "1.0.0",
-  "description": "",
+  "description": "Injecting a root component for uni-app pages",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsc --outDir dist --watch",
     "build": "tsc --outDir dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "uniapp",
+    "uni-app",
+    "inject",
+    "root",
+    "component",
+    "unplugin"
+  ],
+  "repository": "Enside/unplugin-uniapp-root",
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.18.5",
     "@babel/generator": "^7.17.9",
